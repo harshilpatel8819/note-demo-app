@@ -1,0 +1,17 @@
+.form-card-container {
+  /* width: max(100px, 557px); */
+}
+
+.form-edit-mode {
+  box-shadow: none;
+  border: none;
+}
+
+.card-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancel-button {
+  margin-right: 10px;
+}

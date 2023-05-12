@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+.container {
+  width: 100vw;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.card-list {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-container {
+  margin: 20px 0;
+}
+
+.filter-container .ant-select {
+  width: 49% !important;
+  margin: 10px 0;
+}
+
+.created-select {
+  margin-right: 2% !important;
+}
+
+.ant-card {
+  box-shadow: 0 0 20px #51515121;
+}
